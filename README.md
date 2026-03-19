@@ -1,20 +1,20 @@
 # movie-investment-analysis
-Project Overview : This project analyzes movie investment trends, profitability patterns, and genre-based risk using an end-to-end data analytics workflow.
+## Project Overview : This project analyzes movie investment trends, profitability patterns, and genre-based risk using an end-to-end data analytics workflow.
 The goal was to understand:
 -Do high budgets guarantee high returns?
 -Which genres offer better risk-adjusted ROI?
 -What is the failure rate across investment categories?
 -How has profitability evolved over time?
 
-Tech Stack :
+## Tech Stack :
 -Python (Pandas) – Data cleaning, feature engineering & EDA
 -PostgreSQL – Advanced SQL analysis (aggregations, window functions, quartiles)
 -Power BI – Interactive dashboard & business visualization
 
-Project Workflow:
+## Project Workflow:
 Raw Dataset → Data Cleaning & Feature Engineering (Pandas) → Exported Structured Tables → Relational Modeling in PostgreSQL → Advanced SQL Analysis → Interactive Power BI Dashboard .
  
-Key Analysis Performed :
+## Key Analysis Performed :
 1.  Investment & Profitability :
        -ROI & Profit calculation
        -Budget category segmentation
@@ -55,12 +55,11 @@ Key Analysis Performed :
 
 ## Repository Structure
 movie-investment-analysis/
-│
-├── cleaned_movies.csv/         → Cleaned datasets
-├── movies_notebook.ipynb/      → Data cleaning & EDA notebook
-├── quries.sql/                 → Analytical SQL queries
-├── dashboard.pbix/             → Dashboard (.pbix file)
-└── README.md
+── cleaned_movies.csv/         → Cleaned datasets
+── movies_notebook.ipynb/      → Data cleaning & EDA notebook
+── quries.sql/                 → Analytical SQL queries
+── dashboard.pbix/             → Dashboard (.pbix file)
+── README.md
 
 ## Dashboard Features
 -Interactive genre & year slicers
