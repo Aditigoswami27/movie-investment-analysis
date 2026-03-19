@@ -55,11 +55,13 @@ Raw Dataset → Data Cleaning & Feature Engineering (Pandas) → Exported Struct
 
 ## Repository Structure
 movie-investment-analysis/
-── cleaned_movies.csv/         → Cleaned datasets
-── movies_notebook.ipynb/      → Data cleaning & EDA notebook
-── quries.sql/                 → Analytical SQL queries
-── dashboard.pbix/             → Dashboard (.pbix file)
-── README.md
+- cleaned_movies.csv/         → Cleaned datasets
+- movies_notebook.ipynb/      → Data cleaning & EDA notebook
+- quries.sql/                 → Analytical SQL queries
+- dashboard.pbix/             → Dashboard (.pbix file)
+- dashboard page_1            → first page of dashboard
+- dashboard page_2            → second page of dashboard
+- README.md
 
 ## Dashboard Features
 -Interactive genre & year slicers
